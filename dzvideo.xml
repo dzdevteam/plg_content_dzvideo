@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+	<name>plg_content_dzvideo</name>
+	<author>DZ Team</author>
+	<creationDate>March 2015</creationDate>
+	<copyright>Copyright (C) 2015 - DZ Team</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@dzdev.com</authorEmail>
+	<authorUrl>dzdev.com</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_CONTENT_DZVIDEO_XML_DESCRIPTION</description>
+
+	<files>
+		<filename plugin="dzvideo">dzvideo.php</filename>
+		<filename>index.html</filename>
+		<filename>dzvideo.xml</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_dzvideo.ini</language>
+		<language tag="en-GB">en-GB.plg_content_dzvideo.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			
+		</fields>
+	</config>
+
+</extension>
