@@ -59,8 +59,8 @@ class PlgContentDZVideo extends JPlugin
                 $image = $item->images;
                 if (isset($image['custom']) && !empty($image['custom']) && JFile::exists(JPATH_ROOT.'/'.$image['custom'])) {
                    $display_image = JUri::root().$image['custom'];
-                } elseif (isset($image['thumb']) && !empty($image['thumb']) && JFile::exists(JPATH_ROOT.'/'.$image['thumb'])) {
-                    $display_image = JUri::root().$image['thumb']; 
+                } elseif (isset($image['medium']) && !empty($image['medium']) && JFile::exists(JPATH_ROOT.'/'.$image['medium'])) {
+                    $display_image = JUri::root().$image['medium']; 
                 }
                 
                 $output  =  '<a href="' . $item->videolink . '" class="content-video" title="' . $item->title . '" target="_blank">';
